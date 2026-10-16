@@ -1,0 +1,10 @@
+print("===Rumus Segitiga===")
+a = int (input("alas:"))
+t = int (input("tinggi:"))
+print("Hasil", (1/2*a*t))
+
+print("===Rumus Prisma===")
+La = int (input("luas alas:"))
+Ka = int (input("keliling alas:"))
+t = int (input("tinggi:"))
+print("Hasil", (2*La + Ka*t))
